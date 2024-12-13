@@ -1,0 +1,10 @@
+ec2_server/__pycache__
+ec2_server/env
+frontend/node_modules
+frontend/public
+IoT_NoiseNet/.pio
+IoT_NoiseNet/.vscode
+IoT_NoiseNet/include
+IoT_NoiseNet/lib
+IoT_NoiseNet/test
+.DS_STORE

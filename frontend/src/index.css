@@ -1,0 +1,32 @@
+/* Style for the container in a horizontal layout */
+.container.horizontal-layout {
+  display: flex;
+  flex-direction: row; /* Aligns children side-by-side horizontally */
+  justify-content: space-around; /* Spaces out the components */
+  align-items: center; /* Aligns the components vertically */
+  gap: 20px; /* Adds spacing between the components */
+  padding: 20px;
+}
+
+/* Style for the individual chart container */
+.chart-container {
+  flex: 1; /* Allows flexibility in sizing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the individual speedometer container */
+.speedometer-container {
+  flex: 1; /* Allows flexibility in sizing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-heading {
+  text-align: center; /* Horizontally centers text */
+  margin: 20px 0; /* Adds space above and below the heading */
+  font-size: 2rem; /* Optional: Adjust font size */
+  font-family: Arial, sans-serif; /* Optional: Adjust font style */
+}
